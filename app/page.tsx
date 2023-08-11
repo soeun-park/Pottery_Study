@@ -25,8 +25,24 @@ export default function Home() {
             <div>Services</div>
           </div>
         </div></div>
-      <div className="relative">
+      <div className="relative pb-[12px]">
         <Image src={Together1} alt="" />
+        <div className="absolute top-0 bottom-0 flex-col flex justify-center px-[82px]">
+          <div className="flex space-x-[8px] text-white">
+            <div>캠페인</div>
+            <div>|</div>
+            <div>여름 23</div>
+          </div>
+          <div className="text-white font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
+            실루엣과 편안한 착용감</div>
+          <div className="flex space-x-[30px] pt-[32px]">
+            <button className="w-[125px] py-[10px] bg-white rounded-[10px]">구입하기</button>
+            <button className="text-white" >더 알아보기 &#62;</button>
+          </div>
+        </div>
+      </div>
+      <div className="relative pb-[12px]">
+        <Image src={Together2} alt="" />
         <div className="absolute top-0 bottom-0 flex-col flex justify-center px-[82px]">
           <div className="flex space-x-[8px] text-white">
             <div>캠페인</div>
