@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Together1 from 'img/together1.png'
 import Together2 from 'img/together2.png'
+import Together3 from 'img/Frame 427323063.png'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
             <div>Services</div>
           </div>
         </div></div>
-      <div className="relative pb-[12px]">
+      <div className="relative pb-[20px]">
         <Image src={Together1} alt="" />
         <div className="absolute top-0 bottom-0 flex-col flex justify-center px-[82px]">
           <div className="flex space-x-[8px] text-white">
@@ -41,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative pb-[12px]">
+      <div className="relative pb-[20px]">
         <Image src={Together2} alt="" />
         <div className="absolute top-0 bottom-0 flex-col flex justify-center px-[82px]">
           <div className="flex space-x-[8px] text-white">
@@ -57,21 +58,73 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-[#f2f2f2] h-[500px]">
-        <div className="absolute top-0 bottom-0 flex-col flex justify-center px-[82px]">
-          <div className="flex space-x-[8px]">
-            <div>캠페인</div>
-            <div>|</div>
-            <div>여름 23</div>
+      <div className="w-full py-[38px] bg-[#f2f2f2] mb-[20px]">
+        <div className="flex space-x-[40px] mx-[82px] justify-between">
+          <div className="flex-col flex justify-center w-[620px]">
+            <div className="flex space-x-[8px]">
+              <div>캠페인</div>
+              <div>|</div>
+              <div>여름 23</div>
+            </div>
+            <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
+              실루엣과 편안한 착용감</div>
+            <div className="flex space-x-[30px] pt-[32px]">
+              <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
+              <button className="" >더 알아보기 &#62;</button>
+            </div>
           </div>
-          <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
-            실루엣과 편안한 착용감</div>
-          <div className="flex space-x-[30px] pt-[32px]">
-            <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
-            <button className="" >더 알아보기 &#62;</button>
+          <div className="w-[620px] h-[424px]">
+            <Image src={Together3} alt="" />
           </div>
         </div>
       </div>
+      <div className="w-full py-[38px] bg-[#f2f2f2] mb-[20px]">
+        <div className="flex space-x-[40px] mx-[82px] justify-between">
+          <div className="flex-col flex justify-center w-[620px]">
+            <div className="flex space-x-[8px]">
+              <div>캠페인</div>
+              <div>|</div>
+              <div>여름 23</div>
+            </div>
+            <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
+              실루엣과 편안한 착용감</div>
+            <div className="flex space-x-[30px] pt-[32px]">
+              <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
+              <button className="" >더 알아보기 &#62;</button>
+            </div>
+          </div>
+          <div className="w-[620px] h-[424px]">
+            <Image src={Together3} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="flex space-x-[20px]">
+        <div className="w-full bg-[#f2f2f2] pt-[60px] pb-[40px]">
+          <div className="flex flex-col items-center  space-y-[32px]">
+            <div className="flex-col text-center">
+              <div className="font-medium text-center text-[32px] leading-[40px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
+              </div>
+              <button className="text-[15px]" >더 알아보기 &#62;</button>
+            </div>
+            <div className="w-[470px]">
+              <Image src={Together3} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="w-full bg-[#f2f2f2] pt-[60px] pb-[40px]">
+          <div className="flex flex-col items-center  space-y-[32px]">
+            <div className="flex-col text-center">
+              <div className="font-medium text-center text-[32px] leading-[40px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
+              </div>
+              <button className="text-[15px]" >더 알아보기 &#62;</button>
+            </div>
+            <div className="w-[470px]">
+              <Image src={Together3} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </main>
   )
 }
