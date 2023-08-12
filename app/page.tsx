@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="w-full">
-        <div className="flex justify-between items-center mx-[82px] py-[10px] border-b border-black ">
+        <div className="flex justify-between items-center mx-[82px] py-[10px] border-b border-black">
           <div className="flex space-x-[45px] items-center">
             <div className="font-bold text-[18px]">POTTERY</div>
             <div className="flex space-x-[30px] text-[13px] font-medium">
