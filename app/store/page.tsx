@@ -8,7 +8,7 @@ import Together7 from 'img/together7.png'
 
 export default function Home() {
     return (
-        <main className="">
+        <main >
             <div className="w-full fixed top-0 left-0 right-0 bg-white">
                 <div className="flex justify-between items-center mx-[82px] py-[10px] border-b border-black ">
                     <div className="flex space-x-[45px] items-center">
@@ -30,23 +30,17 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="">
-                <div className="flex justify-between items-center pt-[100px] px-[82px]">
-                    <div className="text-[45px] font-semibold leading-[54px]">현대사회에 적합한 <br />
-                        유니폼, 포터리</div>
-                    <div className="flex space-x-[12px]">
-                        <div className="w-[176px]">
-                            <div className="border-r">
-                                <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
-                                <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
-                            </div>
-                        </div>
-                        <div className="w-[176px]">
-                            <div className="border-r">
-                                <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
-                                <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
-                            </div>
-                        </div>
+            <div className="flex justify-between items-center pt-[100px] px-[82px]">
+                <div className="text-[45px] font-semibold leading-[54px]">현대사회에 적합한 <br />
+                    유니폼, 포터리</div>
+                <div className="flex space-x-[12px] rounded-t-xl border border-b-0 p-[16px]">
+                    <div className="w-[176px] border-r">
+                            <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
+                            <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
+                    </div>
+                    <div className="w-[176px]">
+                            <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
+                            <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
                     </div>
                 </div>
             </div>
@@ -98,8 +92,8 @@ export default function Home() {
                 </div>
 
             </div>
-            <div className='flex overflow-x-auto'>
-                <div className=' ml-[82px] space-y-[42px]'>
+            <div className='flex '>
+                <div className=' pl-[82px] space-y-[42px] pr-[60px]'>
                     <div>01</div>
                     <div className='flex space-x-[16px]'>
                         <div className='h-[12px] border-l'></div>
@@ -109,47 +103,45 @@ export default function Home() {
                         <div className='h-[12px] border-l'></div>
                     </div>
                 </div>
-                <div>
+                <div className="w-full overflow-hidden">
                     <div className='font-semibold text-[28px] leading-[34px] ml-[82px]'>23SS 캠페인과 룩북</div>
-                    <div className='mx-[82px]'>
-                        <div className='flex space-x-[20px] pt-[30px]'>
-                            <div className='relative '>
-                                <div className='w-[710px] h-[500px]'>
-                                    <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                </div>
-                                <div className='absolute top-0 bottom-0 p-[30px] w-full'>
-                                    <div className=''>
-                                        <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                        <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                            실루엣과 편안함 착용감</div>
-                                        <div className=' w-full border-b'></div>
-                                        <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                    </div>
-                                </div>
+                    <div className='w-full flex space-x-[20px] pt-[30px] overflow-x-auto ml-[82px] pr-[160px]'>
+                        <div className='relative '>
+                            <div className='w-[710px] h-[500px]'>
+                                <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
                             </div>
-                            <div className='relative'>
-                                <div className='w-[710px] h-[500px]'>
-                                    <Image src={Together5} alt="" className='rounded-[15px] drop-shadow-md' />
-                                </div>
-                                <div className='absolute top-0 bottom-0  p-[30px] w-full'>
-                                    <div className='text-[13px] pb-[12px]'>Comfort Shirt</div>
-                                    <div className='text-[28px] leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                        실루엣과 편안함 착용감</div>
-                                    <div className=' border-b'></div>
-                                    <div className=' text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                </div>
-                            </div>
-                            <div className='relative'>
-                                <div className='w-[710px] h-[500px]'>
-                                    <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                </div>
-                                <div className='absolute top-0 bottom-0  p-[30px] w-full'>
+                            <div className='absolute top-0 bottom-0 p-[30px] w-full'>
+                                <div >
                                     <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
                                     <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
                                         실루엣과 편안함 착용감</div>
                                     <div className=' w-full border-b'></div>
                                     <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <div className='w-[710px] h-[500px]'>
+                                <Image src={Together5} alt="" className='rounded-[15px] drop-shadow-md' />
+                            </div>
+                            <div className='absolute top-0 bottom-0  p-[30px] w-full'>
+                                <div className='text-[13px] pb-[12px]'>Comfort Shirt</div>
+                                <div className='text-[28px] leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
+                                    실루엣과 편안함 착용감</div>
+                                <div className=' border-b'></div>
+                                <div className=' text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <div className='w-[710px] h-[500px]'>
+                                <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
+                            </div>
+                            <div className='absolute top-0 bottom-0  p-[30px] w-full'>
+                                <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
+                                <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
+                                    실루엣과 편안함 착용감</div>
+                                <div className=' w-full border-b'></div>
+                                <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
                             </div>
                         </div>
                     </div>
@@ -332,22 +324,33 @@ export default function Home() {
                 </div>
             </div>
             <div className="w-full bg-white">
-                <div className="mx-[82px] py-[10px] border-t border-black ">
+                <div className="mx-[82px] py-[8px] border-t border-[#B7B7B7] ">
                     <div className="grid grid-cols-4 gap-4">
-                        <div className='flex-col'>
-                            <div className="font-bold text-[18px]">POTTERY</div>
-                            <div className='font-[12px]'>회사명 : 주식회사 포터리</div>
-                            <div>대표이사 : 김건우</div>
-                            <div>주소 : 서울특별시 마포구 양화로 73, 체리스빌딩 2/3층</div>
-                            <div>사업자 등록번호 : 504-88-01834</div>
-                            <div>통신판매업번호 : 2021-서울마포-1570</div>
+                        <div className='flex-col space-y-[12px]'>
+                            <div className="font-bold text-[16px] pb-[20px]">POTTERY</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>회사명 : 주식회사 포터리</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>대표이사 : 김건우</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>주소 : 서울특별시 마포구 양화로 73, 체리스빌딩 2/3층</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>사업자 등록번호 : 504-88-01834</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>통신판매업번호 : 2021-서울마포-1570</div>
                         </div>
-                        <div className="font-bold text-[18px]">POTTERY</div>
-                        <div className="font-bold text-[18px]">POTTERY</div>
+                        <div className='flex-col space-y-[4px]'>
+                            <div className="font-bold text-[18px] pb-[45px]"></div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>온라인 고객센터</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>운영시간 : 10:00-17:00 (주말/공휴일 휴무)</div>
+                            <div className='text-[12px] text-[#333333] leading-[15px]'>연락처 : 02-332-9934</div>
+                        </div>
+                        <div className='flex'>
+                            <div className="text-[12px] text-[#333333] leading-[15px] w-[88px] mr-[20px] font-semibold">위치 및 언어 설정</div>
+                            <div className='flex-col'>
+                                <div className="text-[12px] text-[#333333] leading-[15px] border-b border-[#B7B7B7] w-[196px] pb-[13px]">배송</div>
+                                <div className="text-[12px] text-[#333333] leading-[15px] border-b border-[#B7B7B7] w-[196px] pb-[13px ">언어</div>
+                            </div>
+                        </div>
                         <div className="font-bold text-[18px]">POTTERY</div>
                     </div>
                 </div>
             </div>
-        </main>
+        </main >
     )
 }

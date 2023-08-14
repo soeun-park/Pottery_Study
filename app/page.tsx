@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Together1 from 'img/together1.png'
 import Together2 from 'img/together2.png'
 import Together3 from 'img/Frame 427323063.png'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           <div className="flex space-x-[45px] items-center">
             <div className="font-bold text-[18px]">POTTERY</div>
             <div className="flex space-x-[30px] text-[13px] font-medium">
-              <div>Store</div>
+              <Link href={"/store"}>Store</Link>
               <div>Product</div>
               <div>Shirts</div>
               <div>Denim</div>
