@@ -12,19 +12,19 @@ export default function Home() {
           <div className="flex space-x-[45px] items-center">
             <div className="font-bold text-[18px]">POTTERY</div>
             <div className="flex space-x-[30px] text-[13px] font-medium">
-              <Link href={"/store"}>Store</Link>
-              <div>Product</div>
-              <div>Shirts</div>
-              <div>Denim</div>
-              <div>Setup</div>
-              <div>Guide</div>
+              <Link href={"/store"}>스토어</Link>
+              <div>제품</div>
+              <div>셔츠</div>
+              <div>데님</div>
+              <div>셋업</div>
+              <div>가이드</div>
             </div>
           </div>
           <div className="flex space-x-[30px] text-[13px] font-medium">
-            <div>Search</div>
-            <div>Login</div>
-            <div>Cart</div>
-            <div>Services</div>
+            <div>검색</div>
+            <div>로그인</div>
+            <div>장바구니</div>
+            <div>서비스</div>
           </div>
         </div></div>
       <div className="relative pb-[20px]">
@@ -100,26 +100,36 @@ export default function Home() {
         </div>
       </div>
       <div className="flex space-x-[20px]">
-        <div className="w-full bg-[#f2f2f2] pt-[60px] pb-[40px]">
-          <div className="flex flex-col items-center  space-y-[32px]">
-            <div className="flex-col text-center">
-              <div className="font-medium text-center text-[32px] leading-[40px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
+      <div className="w-full bg-[#f2f2f2] px-[82px] py-[125px]">
+          <div className="flex items-center space-y-[32px]">
+            <div className="flex-col">
+            <div className="flex space-x-[8px]">
+              <div>캠페인</div>
+              <div>|</div>
+              <div>여름 23</div>
+            </div>
+              <div className="font-medium w-[296px] text-[28px] leading-[36px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
               </div>
               <button className="text-[15px]" >더 알아보기 &#62;</button>
             </div>
-            <div className="w-[470px]">
+            <div className="">
               <Image src={Together3} alt="" />
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#f2f2f2] pt-[60px] pb-[40px]">
-          <div className="flex flex-col items-center  space-y-[32px]">
-            <div className="flex-col text-center">
-              <div className="font-medium text-center text-[32px] leading-[40px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
+        <div className="w-full bg-[#f2f2f2] px-[82px] py-[125px]">
+          <div className="flex items-center space-y-[32px]">
+            <div className="flex-col">
+            <div className="flex space-x-[8px] text-[#5B5B5B text-[15px]]">
+              <div>캠페인</div>
+              <div>|</div>
+              <div>여름 23</div>
+            </div>
+              <div className="font-medium w-[296px] text-[28px] leading-[36px] pt-[8px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
               </div>
               <button className="text-[15px]" >더 알아보기 &#62;</button>
             </div>
-            <div className="w-[470px]">
+            <div>
               <Image src={Together3} alt="" />
             </div>
           </div>
