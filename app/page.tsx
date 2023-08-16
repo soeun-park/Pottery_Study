@@ -120,16 +120,16 @@ export default function Home() {
         <div className="w-full bg-[#f2f2f2] px-[82px] py-[125px]">
           <div className="flex items-center space-y-[32px]">
             <div className="flex-col">
-            <div className="flex space-x-[8px] text-[#5B5B5B text-[15px]]">
-              <div>캠페인</div>
-              <div>|</div>
-              <div>여름 23</div>
+            <div className="flex space-x-[8px]">
+              <div className='text-[15px]'>캠페인</div>
+              <div className='text-[15px]'>|</div>
+              <div className='text-[15px]'>여름 23</div>
             </div>
-              <div className="font-medium w-[296px] text-[28px] leading-[36px] pt-[8px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
+              <div className="font-medium w-[296px] text-[28px] leading-[36px] pb-[24px]"> 포터리만의 유려한 <br />실루엣과 편안한 착용감
               </div>
               <button className="text-[15px]" >더 알아보기 &#62;</button>
             </div>
-            <div>
+            <div className="">
               <Image src={Together3} alt="" />
             </div>
           </div>

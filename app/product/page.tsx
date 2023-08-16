@@ -1,10 +1,6 @@
 import Image from 'next/image'
-import Together1 from 'img/together1.png'
+import Product from 'img/product.png'
 import Together3 from 'img/Frame 427323063.png'
-import Together4 from 'img/together4.png'
-import Together5 from 'img/together5.png'
-import Together6 from 'img/together6.png'
-import Together7 from 'img/together7.png'
 
 export default function Home() {
     return (
@@ -30,9 +26,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-between items-center pt-[100px] px-[82px]">
-            </div>
-            <div className="mx-[82px] pt-[100px]">
+
+            <div className="mx-[82px] pt-[80px]">
                 <div className='flex justify-between'>
                     <div className='flex items-center'>
                         <div className='border-l h-[60px]'></div>
@@ -76,241 +71,64 @@ export default function Home() {
                     </div>
                     <div className='border-r h-[60px]'></div>
                 </div>
-                <div className="mt-[140px]">
+                <div className="mt-[32px]">
                 </div>
 
             </div>
-            <div className='flex '>
-                <div className=' pl-[82px] space-y-[42px] pr-[60px]'>
-                    <div>01</div>
-                    <div className='flex space-x-[16px]'>
-                        <div className='h-[12px] border-l'></div>
-                        <div className='h-[12px] border-l'></div>
-                        <div className='h-[12px] border-l'></div>
-                        <div className='h-[12px] border-l'></div>
-                        <div className='h-[12px] border-l'></div>
-                    </div>
-                </div>
-                <div className="w-full overflow-hidden">
-                    <div className='font-semibold text-[28px] leading-[34px] ml-[82px]'>23SS 캠페인과 룩북</div>
-                    <div className='w-full flex space-x-[20px] pt-[30px] overflow-x-auto ml-[82px] pr-[160px]'>
-                        <div className='relative '>
-                            <div className='w-[710px] h-[500px]'>
-                                <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                            </div>
-                            <div className='absolute top-0 bottom-0 p-[30px] w-full'>
-                                <div >
-                                    <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                    <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                        실루엣과 편안함 착용감</div>
-                                    <div className=' w-full border-b'></div>
-                                    <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='relative'>
-                            <div className='w-[710px] h-[500px]'>
-                                <Image src={Together5} alt="" className='rounded-[15px] drop-shadow-md' />
-                            </div>
-                            <div className='absolute top-0 bottom-0  p-[30px] w-full'>
-                                <div className='text-[13px] pb-[12px]'>Comfort Shirt</div>
-                                <div className='text-[28px] leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                    실루엣과 편안함 착용감</div>
-                                <div className=' border-b'></div>
-                                <div className=' text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                            </div>
-                        </div>
-                        <div className='relative'>
-                            <div className='w-[710px] h-[500px]'>
-                                <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                            </div>
-                            <div className='absolute top-0 bottom-0  p-[30px] w-full'>
-                                <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                    실루엣과 편안함 착용감</div>
-                                <div className=' w-full border-b'></div>
-                                <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className='mx-[82px]'>
+            <div className="bg-[#f2f2f2] rounded-2xl">
+                <div className="flex justify-between space-x-[40px] px-[60px] py-[78px]">
+                <div className="flex-col flex justify-center">
+            <div className="flex space-x-[8px]">
+              <div>캠페인</div>
+              <div>|</div>
+              <div>여름 23</div>
             </div>
-            <div className='mt-[100px]' >
-                <div className='flex overflow-x-auto'>
-                    <div className='space-y-[42px] ml-[82px]'>
-                        <div>01</div>
-                        <div className='flex space-x-[16px]'>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                        </div>
+            <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
+              실루엣과 편안한 착용감</div>
+            <div className="flex space-x-[30px] pt-[32px]">
+              <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
+              <button className="" >더 알아보기 &#62;</button>
+            </div>
+          </div>
+          <div className="w-[620px] h-[424px]">
+            <Image src={Together3} alt="" />
+          </div>
+        </div>
+      </div>
+            </div>
+            <div className='mx-[82px] mt-[120px]'>
+            <div className='flex space-x-[20px]'>
+                <div>
+                    <div className='flex-col'>
+                    <Image src={Product} alt="" />
+                    <div>
+                    <div className="p-2 rounded-full bg-[#000000] mb-8"></div>
                     </div>
+                    <div className='border-t'></div>
+                    <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                    <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                    <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                    <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                    <div className='text-[12px] bg-[#ebebeb] rounded-md p-[8px]'>New Arrivals</div>
+                    </div>
+                </div>
+                <div>
                     <div className=''>
-                        <div className='font-semibold text-[28px] leading-[34px] ml-[82px]'>에디토리얼</div>
-                        <div className=''>
-                            <div className='flex space-x-[20px] pt-[30px] ml-[82px]'>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together6} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='relative'>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together7} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0  p-[25px] w-full'>
-                                        <div className='text-[13px] pb-[12px]'>Comfort Shirt</div>
-                                        <div className='text-[28px] leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                            실루엣과 편안함 착용감</div>
-                                        <div className=' border-b'></div>
-                                        <div className=' text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                    </div>
-                                </div>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together6} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='relative'>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together7} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0  p-[25px] w-full'>
-                                        <div className='text-[13px] pb-[12px]'>Comfort Shirt</div>
-                                        <div className='text-[28px] leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                            실루엣과 편안함 착용감</div>
-                                        <div className=' border-b'></div>
-                                        <div className=' text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                    </div>
-                                </div>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together6} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div className='mt-[100px]' >
-                <div className='flex overflow-x-auto'>
-                    <div className='space-y-[42px] ml-[82px]'>
-                        <div>01</div>
-                        <div className='flex space-x-[16px]'>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                            <div className='h-[12px] border-l'></div>
-                        </div>
-                    </div>
+                    <Image src={Product} alt="" />
+                    </div></div>
+                <div>
                     <div className=''>
-                        <div className='font-semibold text-[28px] leading-[34px] ml-[82px]'>스토리</div>
-                        <div className=''>
-                            <div className='flex space-x-[20px] pt-[30px] ml-[82px]'>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[240px]'>
-                                        <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='relative'>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0  p-[25px] w-full'>
-                                        <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                        <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                            실루엣과 편안함 착용감</div>
-                                        <div className=' border-b'></div>
-                                        <div className=' text-[17px] text-white font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                    </div>
-                                </div>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='relative'>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0  p-[25px] w-full'>
-                                        <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                        <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                            실루엣과 편안함 착용감</div>
-                                        <div className=' border-b'></div>
-                                        <div className=' text-[17px] text-white font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                    </div>
-                                </div>
-                                <div className='relative '>
-                                    <div className='w-[375px] h-[500px]'>
-                                        <Image src={Together4} alt="" className='rounded-[15px] drop-shadow-md' />
-                                    </div>
-                                    <div className='absolute top-0 bottom-0 p-[25px] w-full'>
-                                        <div className=''>
-                                            <div className='text-[13px] text-white pb-[12px]'>Comfort Shirt</div>
-                                            <div className='text-[28px] text-white leading-[34px] font-semibold pb-[16px]'>포터리만의 유려한 <br />
-                                                실루엣과 편안함 착용감</div>
-                                            <div className=' w-full border-b'></div>
-                                            <div className=' text-white text-[17px] font-regular pt-[16px]'>전에 없던 색상으로 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                    <Image src={Product} alt="" />
+                    </div></div>
+                <div>
+                    <div className=''>
+                    <Image src={Product} alt="" />
+                    </div></div>
             </div>
+            </div>
+
+
             <div className="w-full bg-white">
                 <div className="mx-[82px] py-[8px] border-t border-[#B7B7B7] ">
                     <div className="grid grid-cols-4 gap-4">
