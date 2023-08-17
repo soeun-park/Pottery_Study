@@ -75,57 +75,265 @@ export default function Home() {
                 </div>
 
             </div>
+
             <div className='mx-[82px]'>
-            <div className="bg-[#f2f2f2] rounded-2xl">
-                <div className="flex justify-between space-x-[40px] px-[60px] py-[78px]">
-                <div className="flex-col flex justify-center">
-            <div className="flex space-x-[8px]">
-              <div>캠페인</div>
-              <div>|</div>
-              <div>여름 23</div>
-            </div>
-            <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
-              실루엣과 편안한 착용감</div>
-            <div className="flex space-x-[30px] pt-[32px]">
-              <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
-              <button className="" >더 알아보기 &#62;</button>
-            </div>
-          </div>
-          <div className="w-[620px] h-[424px]">
-            <Image src={Together3} alt="" />
-          </div>
-        </div>
-      </div>
-            </div>
-            <div className='mx-[82px] mt-[120px]'>
-            <div className='flex space-x-[20px]'>
-                <div>
-                    <div className='flex-col'>
-                    <Image src={Product} alt="" />
-                    <div>
-                    <div className="p-2 rounded-full bg-[#000000] mb-8"></div>
-                    </div>
-                    <div className='border-t'></div>
-                    <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
-                    <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
-                    <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
-                    <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
-                    <div className='text-[12px] bg-[#ebebeb] rounded-md p-[8px]'>New Arrivals</div>
+                <div className="bg-[#f2f2f2] rounded-2xl">
+                    <div className="flex justify-between space-x-[40px] px-[60px] py-[78px]">
+                        <div className="flex-col flex justify-center">
+                            <div className="flex space-x-[8px]">
+                                <div>캠페인</div>
+                                <div>|</div>
+                                <div>여름 23</div>
+                            </div>
+                            <div className="font-medium text-[45px] leading-[55px] pt-[12px]">포터리만의 유려한<br />
+                                실루엣과 편안한 착용감</div>
+                            <div className="flex space-x-[30px] pt-[32px]">
+                                <button className="w-[125px] py-[10px] bg-black rounded-[10px] text-white">구입하기</button>
+                                <button className="" >더 알아보기 &#62;</button>
+                            </div>
+                        </div>
+                        <div className="w-[620px] h-[424px]">
+                            <Image src={Together3} alt="" />
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div className=''>
-                    <Image src={Product} alt="" />
-                    </div></div>
-                <div>
-                    <div className=''>
-                    <Image src={Product} alt="" />
-                    </div></div>
-                <div>
-                    <div className=''>
-                    <Image src={Product} alt="" />
-                    </div></div>
             </div>
+            <div className='mx-[82px] mt-[120px] pb-24'>
+                <div className='grid grid-cols-4 gap-x-[20px] gap-y-[60px]'>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+                    <div className='flex-col'>
+                        <Image src={Product} alt="" />
+                        <div className='flex space-x-2 justify-center mt-12'>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#000000]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#EBE8E4]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#D9C1C9]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#E1D8AF]"></div>
+                            </div>
+                            <div className='w-5 h-5 rounded-full border p-[1px]  mb-8'>
+                                <div className="rounded-full w-full h-full bg-[#B9BFD3]"></div>
+                            </div>
+                        </div>
+                        <div className='border-t'></div>
+                        <div className='text-[15px] font-medium mt-[10px]'>Comfort Shirt</div>
+                        <div className='text-[12px] text-[#333333] mb-[8px]'>Superior Wool 100's Washable Gabardine Cloth</div>
+                        <div className='text-[11px] mb-[20px]'>포터리 시그니처, 컴포트 셔츠</div>
+                        <div className='text-[12px] mb-[22px]'>KRW 189,000</div>
+                        <div className='text-[12px] w-fit bg-[#ebebeb] rounded-md px-[8px] py-[2px]'>New Arrivals</div>
+                    </div>
+
+                </div>
             </div>
 
 

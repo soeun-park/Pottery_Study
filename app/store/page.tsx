@@ -9,7 +9,7 @@ import Together7 from 'img/together7.png'
 export default function Home() {
     return (
         <main >
-            <div className="w-full fixed top-0 left-0 right-0 bg-white">
+            <div className="w-full fixed top-0 left-0 right-0 bg-white z-20">
                 <div className="flex justify-between items-center mx-[82px] py-[10px] border-b border-black ">
                     <div className="flex space-x-[45px] items-center">
                         <div className="font-bold text-[18px]">POTTERY</div>
@@ -35,12 +35,12 @@ export default function Home() {
                     유니폼, 포터리</div>
                 <div className="flex space-x-[12px] rounded-t-xl border border-b-0 p-[16px]">
                     <div className="w-[176px] border-r">
-                            <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
-                            <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
+                        <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
+                        <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
                     </div>
                     <div className="w-[176px]">
-                            <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
-                            <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
+                        <div className='text-[14px] font-semibold'>쇼핑 지원이 필요하다면?</div>
+                        <div className="text-[12px] text-[#b7b7b7] pt-[4px]">저희 팀원이 도와드릴께요 &#62;</div>
                     </div>
                 </div>
             </div>
